@@ -1,0 +1,870 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #1D232C;
+}
+
+nav {
+    padding: 20px;
+         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgb(204, 219, 232)3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5)-3px -3px 6px 1px inset; */
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo i {
+    font-size: xx-large;
+}
+
+.flinelogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1D232C;
+}
+
+.navlinks a:hover {
+    text-decoration: underline;
+}
+
+.slinelogo ul {
+    display: flex;
+    color: grey;
+    margin-left: 30px;
+    gap: 25px;
+}
+
+.navbarmobile {
+    display: none;
+    /* margin-right: 40px;
+    margin-top: 25px;
+    font-size: 18px; */
+}
+
+.sidenavbar {
+    background-color: #1D232C;
+    color: #FFFFFF;
+    height: 100%;
+    width: 25%;
+    top: 0%;
+    left: -70%;
+    position: fixed;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: 2s;
+    z-index: 7;
+}
+
+.sidenavlogo {
+    text-align: end;
+    padding-bottom: 10px;
+}
+
+.snblink {
+    color: #FFFFFF;
+    padding: 10px;
+    padding-bottom: 25px;
+
+}
+
+.sidenavlinks a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidenavlinks a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.bgimg img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.headertitle {
+    width: 600px;
+    position: absolute;
+    left: 80px;
+    top: 25%;
+    color: #FFFFFF;
+}
+
+.titleformobileview {
+    display: none;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: -40px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.headertitle h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+
+}
+
+.headerbtn button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #5457FD;
+    color: #1D232C;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 180px;
+    top: 60%;
+}
+
+.headerbtn button a {
+    color: #1D232C;
+    text-decoration: none;
+    padding-right: 3px;
+}
+
+.cards img {
+    height: 300px;
+    width: 300px;
+    border: #1D232C 2px solid;
+    border-radius: 10px;
+}
+
+.bodybtn1 {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5457FD;
+    color: #1D232C;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: -160px;
+}
+
+.cards a {
+    text-decoration: none;
+    color: #1D232C;
+}
+
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardimg {
+    flex-basis: 30%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body h2 {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #1D232C;
+    color: #FFFFFF;
+    padding: 25px;
+    padding-left: 35px;
+    margin-top: 30px;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #FFFFFF;
+    
+}
+footer a:hover{
+    text-decoration: none;
+}
+.allevents h2{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.emovie img,.econcert img,.esport img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.emovie,.econcert,.esport{
+    border: #1D232C 2px solid;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.emovies,.econcerts,.esports{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    align-items: flex-start;
+}
+.emovie h4,.econcert h4,.esport h4{
+    display: flex;
+    justify-content: center;
+}
+
+.eventdetails1,.eventdetails2,.eventdetails3,
+.eventdetails4,.eventdetails5,.eventdetails6,
+.eventdetails7,.eventdetails8,.eventdetails9{
+    display: none;
+    padding: 10px;   
+}
+
+.bn-btn1,.bn-btn2,.bn-btn3,
+.bn-btn4,.bn-btn5,.bn-btn6,
+.bn-btn7,.bn-btn8,.bn-btn9{
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5457FD;
+    color: #FFFFFF;
+   width: 90%;
+   cursor: pointer;
+}
+.ed-btn1,.ed-btn2,.ed-btn3,
+.ed-btn4,.ed-btn5,.ed-btn6,
+.ed-btn7,.ed-btn8,.ed-btn9
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5457FD;
+    border: #5457FD 2px solid;
+    border-radius: 10px;
+    width: 90%;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hd-btn1,.hd-btn2,.hd-btn3,
+.hd-btn4,.hd-btn5,.hd-btn6,
+.hd-btn7,.hd-btn8,.hd-btn9
+
+{
+     margin-left: 10px;
+     margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5457FD;
+    border: #5457FD 2px solid;
+    border-radius: 10px;
+    width: 90%;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.bookingform{
+    background-color: #1D232C;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 30px;
+    border-radius:10px ;
+    margin-top: 50px;  
+    margin-bottom: 30px;
+    height: 90%;
+    width: 55%; 
+   
+}
+.bookingform input{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: medium;
+   
+
+}
+.booknowbtn{
+    background-color: #5457FD;
+    color: #FFFFFF;
+    border: none;
+    width: 35%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.bookingform div{
+    display: flex;
+    justify-content: space-around;
+}
+.cancelbtn{
+    width: 35%;
+    border-radius: 10px;
+    border: none;
+   margin-top: 10px;
+     padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.bookingform h4{
+    margin-left: 20px;
+}
+
+.bookingheader{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bformdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.bookingheadermobileview{
+    display: none;
+}
+
+.bookingform input:focus{
+    outline: none;
+}
+
+
+.contectform{
+    background-color: #1D232C;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius:10px ;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 80%;
+    width: 55%; 
+    
+}
+
+.contectform input{
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 85%;
+    height: 45px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+
+.contectform textarea{
+    border: none;
+    border-radius: 10px;
+    height: 90px;
+    width: 85%;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: medium;
+    padding: 10px;
+}
+
+
+.contectform button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5457FD;
+    color: #FFFFFF;
+    border: none;
+   margin-left: 13px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   cursor: pointer;
+
+}
+
+.contectform h5{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+
+.cformdiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contectform input:focus{
+    outline: none;
+}
+
+
+.contectform textarea:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:770px) {
+    .headertitle h1{
+        margin-top: 30px;
+    }
+    .headerbtn button {
+        top: 70%;
+    }
+    .cardimg img{
+        height: 230px;
+        width: 230px;
+    }
+    .bodybtn1{
+     top: -130px;
+    }
+}
+
+
+
+
+/* mobile l (normal) */
+@media screen and (max-width:425px) {
+    .navbarmobile {
+        display: block;
+    }
+
+    .navlinks {
+        display: none;
+    }
+    /* .flinelogo{
+        justify-content: flex-start;
+    }
+    .slinelogo{
+        margin-left: 50px;
+    } */
+     .logo{
+        font-size: small;
+     }
+     .logo i{
+        font-size: x-large;
+     }
+    .headertitle h3 {
+        display: none;
+    }
+
+    .headertitle h1 {
+        width: 300px;
+        position: absolute;
+        left: -40px;
+        top: -20%;
+        font-size: x-large;
+        font-weight: 790;
+    }
+
+    .headerbtn button {
+        position: absolute;
+        left: 60px;
+        top: 56%;
+    }
+
+    .bgimg img {
+        height: 55%;
+    }
+
+    .titleformobileview {
+        display: block;
+        margin-top: 85px;
+
+    }
+    
+
+
+
+/* booking style */
+
+.bookingheader{
+    display: none;
+}
+.bookingheadermobileview{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.bookingform{
+    width: 75%;
+}
+
+.bookingform input{
+    margin-left: 10px;
+    width: 90%;
+    padding: 10px;
+    font-size: small;
+}
+.bookingform h4{
+    margin-left: 10px;
+}
+
+/* contect style */
+
+ .contectform{
+    width: 83%;
+ }
+
+
+.contectform h5{
+    font-size: medium;
+}
+
+.contectform input{
+    height: 37px;
+    width: 83%;
+}
+
+.contectform textarea{
+    height: 90px;
+    width: 83%;
+}
+
+}
+
+
+
+
+
+
+
+
+/* mobile s */
+
+@media screen and (max-width:330px) {
+    .headertitle h1 {
+        left: -45px;
+        font-size: x-large;
+    }
+
+    .bookingform{
+        width: 73%;
+    }
+
+    .bookingheadermobileview{
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        font-weight: 750;
+    }
+
+    .bookingform input{
+        margin-left: 0px;
+        width: 95%;
+        margin-top: 3px;
+    }
+
+    .bookingform h4{
+        margin-left: 0%;
+    }
+
+
+    .contectform input,.contectform textarea{
+        width: 80%;
+        
+    }
+
+}
+
+
+
+
+
+
+/* laptop l */
+@media screen and (min-width:1440px) {
+
+    .booknowbtn,.cancelbtn{
+        font-size: medium;
+        margin-top: 20px;
+    }
+   
+    .bookingform h4{
+        font-size: large;
+    }
+    .bookingform input{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .bformdiv{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+
+
+    .contectform h2{
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+    .contectform h5{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .contectform textarea{
+        margin-bottom: 10px;
+        font-size: 20px;
+        height: 120px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .contectform input{
+        padding: 20px;
+        font-size: 20px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .contectform button{
+        margin-left: 30px;
+    }
+
+  .cformdiv{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4k */
+@media screen and (min-width:2560px) {
+    .logo i{
+        font-size: 55px;
+    }
+    .bodybtn1 {
+        top: -50%;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .cards {
+        padding: 100px;
+        margin-top: 10px;
+    }
+    .cardimg img{
+        height: 550px;
+        border-radius: 20px;
+        width: 550px;
+    }
+
+    .headerbtn button {
+        font-size: 25px;
+        padding: 25px;
+        margin-left: 150px;
+    }
+
+    .header,footer,.body,nav {
+        font-size: 30px;
+    }
+    .headertitle{
+        margin-left: 70px;
+    }
+
+
+    .slinelogo ul {
+        display: flex;
+        gap: 40px;
+    }
+    .header h1{
+        width: 200%;
+        font-size: 70px;
+    }
+    .headertitle h3{
+        font-size: 40px;
+        margin-top: 20px;
+        width: 200%;
+    }
+
+
+    /* event style */
+
+    .allevents h2{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.emovie img , .econcert img , .esport img{
+    height: 410px ;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.emovie,.econcert,.esport{
+    border: #1D232C 2px solid;
+    width: 410px;
+    font-size: x-large;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.emovie button , .econcert button , .esport button{
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+
+/* booking style */
+
+.bookingform{
+    font-size: xx-large;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    padding-top: 70px;
+}
+
+.bookingform input{
+   margin-left: 50px;
+   margin-bottom: 50px;
+   font-size: 36px;
+   border-radius: 20px;
+   height:90px;
+   padding: 20px;
+}
+
+.bookingform h4{
+    margin-left: 50px;
+    font-size: xx-large;   
+}
+
+.bookingform div{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.bookingform button{
+    font-size: xx-large;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.contectform{
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 60%;
+}
+
+.contectform h2{
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.contectform h5{
+    font-size: 33px;
+    margin-left:100px;
+}
+.contectform input{
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    padding: 20px;
+    width: 80%;
+    height: 90px;
+}
+
+.contectform textarea{
+    margin-left: 100px;
+    width: 80%;
+    border-radius: 20px;
+    height: 190px;
+    font-size: 36px;
+    padding: 25px;
+}
+
+.contectform button{
+    font-size: xx-large;
+    padding: 20px ;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+}

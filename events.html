@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TIXVELLO</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="flinelogo">
+                <!-- <div class="navbarmobile" onclick="shownavbar()"><i class="fa-solid fa-bars"></i></div> -->
+            <div class="logo">
+                <i class="fa-solid fa-ticket"></i>
+                <h1>TIXVELLO</h1>
+            </div>
+            <div class="navlinks">
+                <a href="index.html">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="booking.html">BOOKING</a>
+                <a href="contect.html">CONTACT</a>
+            </div>
+            <div class="navbarmobile" onclick="shownavbar()"><i class="fa-solid fa-bars"></i></div>
+
+        </div>
+        <div class="slinelogo">
+            <ul>
+                <li>Events</li>
+                <li>Entertainment</li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="sidenavbar" style="width: 50%; left: -80%;">
+        <div class="sidenavlogo" onclick="closenavbar()"><i class="fa-solid fa-xmark"></i></div>
+
+        <div class="sidenavlinks">
+            <a href="index.html">
+                <p class="snblink">HOME</p>
+            </a>
+            <a href="events.html">
+                <p class="snblink">EVENTS</p>
+            </a>
+            <a href="booking.html">
+                <p class="snblink">BOOKING</p>
+            </a>
+            <a href="contect.html">
+                <p class="snblink">CONTACT</p>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="allevents">
+
+        <h2>EXPLORE MOVIES</h2>
+
+        <div class="emovies">
+
+
+            <div class="emovie">
+                <img src="sabdham.jpeg">
+                <h4>SABDHAM</h4>
+                <a href="booking.html"><button class="bn-btn1">BOOK TICKET</button></a>
+                <button class="ed-btn1" onclick="showdetails1()">EVENT DETAILS</button>
+                <div class="eventdetails1">
+                    <p><i class="fa-solid fa-calendar"></i>: 25-11-2026</p>
+                    <P><i class="fa-solid fa-clock"></i>: 2:00 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Escape Cinemas, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 350</P>
+                    <button class="hd-btn1" onclick="hidedetails1()">HIDE DETAILS</button>
+                </div>
+            </div>
+
+
+            <div class="emovie">
+                <img src="mm2.jpeg">
+                <h4>MEESAYA MURUKKU 2</h4>
+                <a href="booking.html"><button class="bn-btn2">BOOK TICKET</button></a>
+                <button class="ed-btn2" onclick="showdetails2()">EVENT DETAILS</button>
+                <div class="eventdetails2">
+                    <p><i class="fa-solid fa-calendar"></i>: 30-12-2026</p>
+                    <P><i class="fa-solid fa-clock"></i>: 11:00 A.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Palazzo, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 450</P>
+                    <button class="hd-btn2" style="margin-top: 10px;" onclick="hidedetails2()">HIDE DETAILS</button>
+
+                </div>
+            </div>
+
+
+            <div class="emovie">
+                <img src="athomugam.jpeg">
+                <h4>ATHOMUGAM</h4>
+                <a href="booking.html"><button class="bn-btn3">BOOK TICKET</button></a>
+                <button class="ed-btn3" onclick="showdetails3()">EVENT DETAILS</button>
+                <div class="eventdetails3">
+                    <p><i class="fa-solid fa-calendar"></i>: 04-12-2026</p>
+                    <P><i class="fa-solid fa-clock"></i>: 06:00 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Luxe, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 400</P>
+                    <button class="hd-btn3" style="margin-top: 10px;" onclick="hidedetails3()">HIDE DETAILS</button>
+
+                </div>
+            </div>
+        </div>
+
+            <h2>EXPLORE CONCERTS</h2>
+
+        <div class="econcerts">
+            <div class="econcert">
+                <img src="hip hop tamizha.jpeg">
+                <h4>HIP HOP TAMIZHA</h4>
+                <a href="booking.html"><button class="bn-btn4">BOOK TICKET</button></a>
+                <button class="ed-btn4" onclick="showdetails4()">EVENT DETAILS</button>
+                <div class="eventdetails4">
+                    <p><i class="fa-solid fa-calendar"></i>: 06-01-2027</p>
+                    <P><i class="fa-solid fa-clock"></i>: 7:00 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Torque, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 650</P>
+                    <button class="hd-btn4" onclick="hidedetails4()">HIDE DETAILS</button>
+                </div>
+
+            </div>
+
+            <div class="econcert">
+                <img src="chinmayi.jpeg">
+                <h4>CHINMAYI SRIPADA</h4>
+                <a href="booking.html"><button class="bn-btn5">BOOK TICKET</button></a>
+                <button class="ed-btn5" onclick="showdetails5()">EVENT DETAILS</button>
+                <div class="eventdetails5">
+                    <p><i class="fa-solid fa-calendar"></i>: 27-03-2027</p>
+                    <P><i class="fa-solid fa-clock"></i>: 8:30 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : YMCA, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 699</P>
+                    <button class="hd-btn5" style="margin-top: 10px;" onclick="hidedetails5()">HIDE DETAILS</button>
+
+                </div>
+            </div>
+
+
+            <div class="econcert">
+                <img src="anirudh.jpeg">
+                <h4>ANIRUDH RAVICHANDER</h4>
+                <a href="booking.html"><button class="bn-btn6">BOOK TICKET</button></a>
+                <button class="ed-btn6" onclick="showdetails6()">EVENT DETAILS</button>
+                <div class="eventdetails6">
+                    <p><i class="fa-solid fa-calendar"></i>: 19-01-2027</p>
+                    <P><i class="fa-solid fa-clock"></i>: 06:30 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : N&G, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 750</P>
+                    <button class="hd-btn6" style="margin-top: 10px;" onclick="hidedetails6()">HIDE DETAILS</button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+            <h2>EXPLORE SPORTS</h2>
+        <div class="esports">
+
+            <div class="esport">
+                <img src="football.jpeg">
+                <h4>FOOT BALL</h4>
+                <a href="booking.html"><button class="bn-btn7">BOOK TICKET</button></a>
+                <button class="ed-btn7" onclick="showdetails7()">EVENT DETAILS</button>
+                <div class="eventdetails7">
+                    <p><i class="fa-solid fa-calendar"></i>: 25-12-2026</p>
+                    <P><i class="fa-solid fa-clock"></i>: 5:30 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Nehru, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 300</P>
+                    <button class="hd-btn7" onclick="hidedetails7()">HIDE DETAILS</button>
+                </div>
+            </div>
+
+            <div class="esport">
+                <img src="cricket.jpeg">
+                <h4>CRICKET</h4>
+                <a href="booking.html"><button class="bn-btn8">BOOK TICKET</button></a>
+                <button class="ed-btn8" onclick="showdetails8()">EVENT DETAILS</button>
+                <div class="eventdetails8">
+                    <p><i class="fa-solid fa-calendar"></i>: 28-02-2027</p>
+                    <P><i class="fa-solid fa-clock"></i>: 05:00 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Chepauk, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 399</P>
+                    <button class="hd-btn8" style="margin-top: 10px;" onclick="hidedetails8()">HIDE DETAILS</button>
+
+                </div>
+            </div>
+
+
+            <div class="esport">
+                <img src="volleyball.jpeg">
+                <h4>VOLLEY BALL</h4>
+                <a href="booking.html"><button class="bn-btn9">BOOK TICKET</button></a>
+                <button class="ed-btn9" onclick="showdetails9()">EVENT DETAILS</button>
+                <div class="eventdetails9">
+                    <p><i class="fa-solid fa-calendar"></i>: 04-12-2026</p>
+                    <P><i class="fa-solid fa-clock"></i>: 06:00 P.M</P>
+                    <P><i class="fa-solid fa-location-dot"></i> : Mayor, Chennai</P>
+                    <P><i class="fa-solid fa-indian-rupee-sign"></i> : 400</P>
+                    <button class="hd-btn9" style="margin-top: 10px;" onclick="hidedetails9()">HIDE DETAILS</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <h1>Tixvello</h1>
+        <p>Where every ticket opens the door to an unforgettable experience.</p>
+        <a href="contect.html">CONTACT US</a>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p>@2026tixvello</p>
+
+    </footer>
+</body>
+
+
+<script src="event.js">
+</script>
+</html>

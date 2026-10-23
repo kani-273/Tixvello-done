@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TIXVELLO</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="flinelogo">
+                <!-- <div class="navbarmobile" onclick="shownavbar()"><i class="fa-solid fa-bars"></i></div> -->
+            <div class="logo">
+                <i class="fa-solid fa-ticket"></i>
+                <h1>TIXVELLO</h1>
+            </div>
+            <div class="navlinks">
+                <a href="index.html">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="booking.html">BOOKING</a>
+                <a href="contect.html">CONTACT</a>
+            </div>
+            <div class="navbarmobile" onclick="shownavbar()"><i class="fa-solid fa-bars"></i></div>
+
+        </div>
+        <div class="slinelogo">
+            <ul>
+                <li>Events</li>
+                <li>Entertainment</li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="sidenavbar" style="width: 50%; left: -80%;">
+        <div class="sidenavlogo" onclick="closenavbar()"><i class="fa-solid fa-xmark"></i></div>
+
+        <div class="sidenavlinks">
+            <a href="index.html">
+                <p class="snblink">HOME</p>
+            </a>
+            <a href="events.html">
+                <p class="snblink">EVENTS</p>
+            </a>
+            <a href="booking.html">
+                <p class="snblink">BOOKING</p>
+            </a>
+            <a href="contect.html">
+                <p class="snblink">CONTACT</p>
+            </a>
+
+        </div>
+    </div>
+
+
+
+    <div class="cformdiv">
+        <form class="contectform">
+            <h2>CONTACT US  <i class="fa-regular fa-face-smile"></i></h2>
+            <h5>NAME :</h5>
+            <input type="text" name="name" required>
+            <h5>EMAIL :</h5>
+            <input type="email" name="email" required>
+            <h5>MESSAGE :</h5>
+            <textarea name="text" required></textarea><br><br>
+            <button>SUBMIT</button>
+
+        </form>
+    </div>
+
+   
+       <footer>
+        <h1>Tixvello</h1>
+        <p>Where every ticket opens the door to an unforgettable experience.</p>
+        <a href="contect.html">CONTACT US</a>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p>@2026tixvello</p>
+    </footer>
+
+</body>
+
+
+<script src="nav.js">
+
+</script>
+</html>
